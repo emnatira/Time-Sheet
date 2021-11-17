@@ -154,7 +154,7 @@ public class EmployeServiceImplTest {
             fail();
         }
         //hook work plz
-        l.info("Employee deleted!!" + id);
+        l.info("Employee deleted!!!!" + id);
     }
 
 
