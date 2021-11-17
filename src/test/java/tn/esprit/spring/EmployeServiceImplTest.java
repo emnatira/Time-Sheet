@@ -152,7 +152,8 @@ public class EmployeServiceImplTest {
             Assertions.assertThat(employee).isNotNull();
         }else {
             fail();
-        }//tesy
+        }
+        //hook work plz
         l.info("Employee deleted!" + id);
     }
 
