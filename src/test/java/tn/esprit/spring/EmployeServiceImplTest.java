@@ -191,7 +191,7 @@ public class EmployeServiceImplTest {
         float employe = er.getSalaireByEmployeIdJPQL(id);
         Assertions.assertThat(employe).isEqualTo(2000);
 
-        l.info("Passed!"+id);
+        l.info("Passed!!!"+id);
 
 
     }
