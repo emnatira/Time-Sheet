@@ -137,7 +137,7 @@ public class EmployeServiceImplTest {
         Assertions.assertThat(employees.size()).isPositive();
         l.info("Get all employees passed!" );
     }
-
+//delete emp
     @Test
     public void deleteEmployeByIdTest() {
 
@@ -152,7 +152,7 @@ public class EmployeServiceImplTest {
             Assertions.assertThat(employee).isNotNull();
         }else {
             fail();
-        }
+        }//tesy
         l.info("Employee deleted!" + id);
     }
 
