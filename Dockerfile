@@ -4,6 +4,6 @@ WORKDIR /
 ENV JAR_PATH=$DEFAULT_PATH
 COPY ${JAR_PATH} app.jar
 
-EXPOSE 8081
+EXPOSE 8085
 CMD ["java", "-jar", "-Dspring.profiles.active=prod", "app.jar"]
 
